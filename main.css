@@ -68,12 +68,14 @@
   color: #7d97ad;
 }
 
-.featured_work__article {
-  width: 300px;
-  height: 500px;
+.featured_work__articles {
   display: flex;
   flex-wrap: wrap;
-  justify-content: center;
+  justify-content: space-between;
+}
+
+.featured_work__article {
+  width: 300px;
 }
 
 .featured_work__article_title {
