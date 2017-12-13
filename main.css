@@ -59,13 +59,6 @@
   max-height: 100%;
 }
 
-.featured_work__article {
-  width: 300px;
-  height: 200px;
-  display: flex;
-  flex-wrap: wrap;
-}
-
 .featured_work__header {
   font-size: 1.5em;
   font-weight: lighter;
@@ -75,19 +68,28 @@
   color: #7d97ad;
 }
 
+.featured_work__article {
+  width: 300px;
+  height: 500px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
 .featured_work__article_title {
-  font-size: 2em;
+  font-size: 2.5em;
   font-weight: lighter;
+  margin-top: 10px;
+  margin-bottom: 0px;
   margin-left: auto;
   margin-right: auto;
-  margin-top: 10px;
-  margin-bottom: 10px;
   color: #2d3c49;
 }
 
 .featured_work__paragraph {
   margin-left: auto;
   margin-right: auto;
+  margin-top: 0px;
   color: #2d3c49;
 }
 /*
